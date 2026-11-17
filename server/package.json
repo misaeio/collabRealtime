@@ -1,0 +1,17 @@
+{
+  "name": "collab-ws-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "pg": "^8.23.1",
+    "redis": "^6.3.1",
+    "uuid": "^11.0.0",
+    "ws": "^8.23.0",
+    "yjs": "^13.6.33"
+  }
+}
